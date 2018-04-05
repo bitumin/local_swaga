@@ -27,15 +27,21 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['modulename'] = 'swaga';
-$string['modulenameplural'] = 'swagas';
+$string['modulename'] = 'Swaga';
+$string['modulenameplural'] = 'Swagas';
 $string['modulename_help'] = 'Use the swaga module for... | The swaga module allows...';
 $string['swaga:addinstance'] = 'Add a new swaga';
 $string['swaga:submit'] = 'Submit swaga';
 $string['swaga:view'] = 'View swaga';
 $string['swagafieldset'] = 'Custom example fieldset';
-$string['swaganame'] = 'swaga name';
+$string['swaganame'] = 'Swaga name';
 $string['swaganame_help'] = 'This is the content of the help tooltip. Markdown syntax supported.';
-$string['swaga'] = 'swaga';
-$string['pluginadministration'] = 'swaga administration';
-$string['pluginname'] = 'swaga';
+$string['swaga'] = 'Swaga';
+$string['pluginadministration'] = 'Swaga administration';
+$string['pluginname'] = 'Swaga';
+// settings.php
+$string['settingenable_label'] = 'Enable announcement';
+$string['settingenable_description'] = 'Show side wide announcement';
+$string['settingtext_label'] = 'Announcement text';
+$string['settingtext_description'] = 'Text of the announcement';
+$string['settingtext_default'] = 'This is an annoying announcement!';

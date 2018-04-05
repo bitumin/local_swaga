@@ -29,13 +29,13 @@ if ($hassiteconfig) {
     $settings = new admin_settingpage('local_swaga', new lang_string('pluginname', 'local_swaga'));
     $ADMIN->add('localplugins', $settings);
 
-    $label = 'Enable announcement';
-    $description = 'Show side wide announcement';
+    $label = new lang_string('settingenable_label', 'local_swaga');
+    $description = new lang_string('settingenable_description', 'local_swaga');
     $default = 0;
     $settings->add(new admin_setting_configcheckbox('local_swaga/enabled', $label, $description, $default));
 
-    $label = 'Announcement text';
-    $description = 'Text of the announcement';
-    $default = 'This is an annoying announcement!';
+    $label = new lang_string('settingtext_label', 'local_swaga');
+    $description = new lang_string('settingtext_description', 'local_swaga');
+    $default = new lang_string('settingtext_default', 'local_swaga');
     $settings->add(new admin_setting_configtext('local_swaga/text', $label, $description, $default, PARAM_TEXT));
 }

@@ -37,6 +37,6 @@ defined('MOODLE_INTERNAL') || die();
  * @param int $oldversion
  * @return bool
  */
-function xmldb_swaga_upgrade($oldversion) {
+function xmldb_local_swaga_upgrade($oldversion) {
     return true;
 }

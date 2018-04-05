@@ -27,6 +27,6 @@
 /**
  * Custom uninstallation procedure
  */
-function xmldb_swaga_uninstall() {
+function xmldb_local_swaga_uninstall() {
     return true;
 }

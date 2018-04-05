@@ -30,7 +30,7 @@
  *
  * @see upgrade_plugins_modules()
  */
-function xmldb_swaga_install() {
+function xmldb_local_swaga_install() {
 }
 
 /**
@@ -38,5 +38,5 @@ function xmldb_swaga_install() {
  *
  * @see upgrade_plugins_modules()
  */
-function xmldb_swaga_install_recovery() {
+function xmldb_local_swaga_install_recovery() {
 }
